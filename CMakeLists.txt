@@ -7,16 +7,16 @@ set(CFLAGS -m64 -fvisibility=hidden)
 set(CMAKE_POSITION_INDEPENDENT_CODE True)
 
 set(IMGUI_SOURCE
-        "imconfig.h",
-        "imgui.h",
-        "imgui.cpp",
-        "imgui_draw.cpp",
-        "imgui_internal.h",
-        "imgui_widgets.cpp",
-        "imstb_rectpack.h",
-        "imstb_textedit.h",
-        "imstb_truetype.h",
-        "imgui_demo.cpp"
+        imconfig.h
+        imgui.h
+        imgui.cpp
+        imgui_draw.cpp
+        imgui_internal.h
+        imgui_widgets.cpp
+        imstb_rectpack.h
+        imstb_textedit.h
+        imstb_truetype.h
+        imgui_demo.cpp
         )
 
 
